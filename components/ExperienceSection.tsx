@@ -69,8 +69,8 @@ export const ExperienceSection = () => (
             coverage in the Sonarqube
           </List>
           <List>
-            Reviewed peer developers' code and enforced them to follow the best
-            coding practices.
+            {`Reviewed peer developers' code and enforced them to follow the best
+            coding practices.`}
           </List>
         </div>
         <Project title="Projects" projects={["Blu/Pulze Vape Shop"]} />

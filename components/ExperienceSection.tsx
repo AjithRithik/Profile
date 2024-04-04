@@ -105,11 +105,11 @@ export const ExperienceSection = () => (
         <Project
           title="Projects"
           projects={[
-            "Activkido",
             "CheftoYourTable",
             "JustAct",
             "Wimple",
             "Pixlmeet",
+            "Frankdarling"
           ]}
         />
       </Experience>

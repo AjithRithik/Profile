@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Ajith CV",
   description: "Ajith kumar resume",
+  icons: [{
+    rel:'icon', url: '/images/AjithNew-white.png',
+  }]
 };
 
 export default function RootLayout({

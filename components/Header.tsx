@@ -30,7 +30,7 @@ export const Header = () => (
            className="text-xs underline"
             href={"https://ak-ajith-portfolio.vercel.app/"}
             target="_blank"
-          >View My Portfolio</Link>
+          >https://ak-ajith-portfolio.vercel.app/</Link>
       </div>
     </div>
     <div className="flex flex-col gap-3 items-end flex-1 text-white text-sm">

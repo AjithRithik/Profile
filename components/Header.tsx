@@ -3,6 +3,7 @@ import ProfileImage from "@/public/images/AjithNew-white.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 export const Header = () => (
   <div className="flex bg-purple-700 rounded-b-lg border-b-2 border-white flex-1 p-4">
@@ -25,6 +26,11 @@ export const Header = () => (
         <div className="text-xs">
           Web Development | Next js | React js | Angular
         </div>
+          <Link
+           className="text-xs underline"
+            href={"https://ak-ajith-portfolio.vercel.app/"}
+            target="_blank"
+          >View My Portfolio</Link>
       </div>
     </div>
     <div className="flex flex-col gap-3 items-end flex-1 text-white text-sm">

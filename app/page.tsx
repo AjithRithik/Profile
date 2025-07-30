@@ -30,12 +30,12 @@ export default function Home() {
         {/* <!-- End Contact / Links --> */}
 
         {/* <!-- Profile --> */}
-        <div className="mt-4 px-6">
+        <div className="mt-4 px-4 md:px-6">
           <Profile />
         </div>
 
         {/* <!-- Grid 2 1 --> */}
-        <div className="grid grid-cols-3 gap-10 mt-4 px-6">
+        <div className="grid grid-cols-3 gap-10 mt-4 px-4 md:px-6">
           {/* <!-- Grid Items Span 2 Larger --> */}
           <section className="print:col-span-2 col-span-3 md:col-span-2">
             {/* <!-- End Profile --> */}

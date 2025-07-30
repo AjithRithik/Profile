@@ -4,7 +4,7 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 
 export const Header = () => (
-  <div className="flex bg-purple-700 rounded-b-lg border-b-2 border-white flex-1 p-4">
+  <div className="flex-col flex md:flex-row bg-purple-700 rounded-b-lg border-b-2 border-white flex-1 p-4 gap-8">
     <div className="flex">
       <div className="flex flex-col gap-2 text-white">
         <h1 className="print:text-3xl lg:text-3xl md:text-xl mr-auto text-xl uppercase font-semibold">
@@ -23,7 +23,7 @@ export const Header = () => (
         </Link>
       </div>
     </div>
-    <div className="flex flex-col gap-3 items-end flex-1 text-white text-sm">
+    <div className="flex flex-col gap-3 items-start md:items-end flex-1 text-white text-sm">
       <a
         href="mailto:official.ajith171995@gmail.com"
         className="flex items-center gap-2"

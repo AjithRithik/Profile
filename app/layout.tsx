@@ -5,11 +5,16 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ajith CV",
-  description: "Ajith kumar resume",
-  icons: [{
-    rel:'icon', url: '/images/AjithNew-white.png',
-  }]
+  title:
+    "Ajith Kumar | Front-End Developer with 9.5+ Years Experience in Angular, React & Next.js",
+  description:
+    "Senior Front-End Developer with 9.5+ years of experience building enterprise-grade web apps using Angular, React, and Next.js. Proficient in CMS integration, performance optimization, CI/CD, and Agile collaboration.",
+  icons: [
+    {
+      rel: "icon",
+      url: "/images/profile-image.png",
+    },
+  ],
 };
 
 export default function RootLayout({

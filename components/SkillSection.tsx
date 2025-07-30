@@ -4,91 +4,89 @@ import { Skills } from "./Skills";
 export const SkillSection = () => (
   <section className="col-span-1 mt-8 first:mt-0" id="skills">
     <Heading title="Skills" />
-    {/* <!-- Programming Languages --> */}
+
+    {/* Programming Languages */}
     <Skills
-      title={"Programming Languages"}
+      title="Programming Languages"
       skills={[
         "HTML",
-        "CSS/CSS3/Sass",
-        "JavaScript (ES6+)",
+        "CSS / CSS3 / Sass",
+        "JavaScript (Advanced)",
         "TypeScript",
-        "Node js",
+        "Node.js",
         "GraphQL",
+        "Java",
+        "SQL (basic)",
       ]}
     />
-    {/* <!-- End Programming Languages --> */}
 
-    {/* <!-- Libraries & Frameworks --> */}
+    {/* Frontend & Backend Frameworks */}
     <Skills
-      title={"Libraries & Frameworks"}
+      title="Frontend & Backend Frameworks"
       skills={[
+        "Angular",
         "React",
         "Next.js",
-        "Angular",
-        "JQuery",
-        "Axois",
+        "jQuery",
+        "Axios",
         "Apollo",
-        "Express",
-        "Themeui",
+        "Theme UI",
         "Tailwind",
         "Bootstrap",
         "Material UI",
         "Styled Components",
+        "Redux",
+        "React Query",
+        "RxJS",
+        "NgRx",
+        "Express",
+        "Java Spring MVC",
       ]}
     />
-    {/* <!-- End Libraries & Frameworks --> */}
 
-    {/* <!-- Test Runners --> */}
+    {/* DevOps, Tools & Build Systems */}
     <Skills
-      title={"Test Runners & Libraries"}
-      skills={["Jest", "Vite", "Cypress"]}
-    />
-    {/* <!-- End Test Runners --> */}
-
-    {/* <!-- Tools | Platforms | Services --> */}
-
-    <Skills
-      title={"Tools | Services | Database | CMS"}
+      title="DevOps, Tools & Build Systems"
       skills={[
-        "Git / Bash / Shells",
-        "Eslint",
+        "Git / Bash / GitHub",
         "GitLab",
         "Azure",
         "CI / CD",
-        "Sonarqube",
-        "GrowthBook",
-        "Kippa OCR",
-        "Vscode",
+        "SonarQube",
+        "Jenkins",
+        "ESLint",
+        "VSCode",
         "NPM",
         "Yarn",
-        "Optimizely A/B testing",
+        "Webpack",
+        "Turbo",
+        "Monorepo",
+      ]}
+    />
+
+    {/* Cloud, Analytics, CMS & Communication */}
+    <Skills
+      title="Cloud, Analytics, CMS & Communication"
+      skills={[
+        "AWS CloudFront",
+        "Firebase",
+        "Google Analytics",
+        "GrowthBook",
+        "Optimizely A/B Testing",
+        "Optimove",
         "Contentful CMS",
         "Netlify CMS",
         "Netlify",
         "Vercel",
-        "Jenkins",
-        "Webpack",
-        "Turbo",
-        "Monorepo",
-        "AWS cloud front",
-        "Firebase",
-        "Mongodb",
         "Zendesk",
-        "Optimove",
-        "Chat tools",
-        "Google Analytics",
+        "Chat Tools",
       ]}
     />
 
-    {/* <!-- End Tools | Platforms | Services --> */}
-
-    {/* <!-- Related Skills --> */}
-
+    {/* Testing & Related Skills */}
     <Skills
-      title={"Related Skills"}
-      skills={["Agile (Scrum)", "SEO / Meta", "Jira / Atlassian"]}
+      title="Testing libraries"
+      skills={["Jest", "Cypress", "Testing Library", "Vitest", "Cucumber"]}
     />
-
-    {/* <!-- End Related Skills --> */}
   </section>
 );

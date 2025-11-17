@@ -6,9 +6,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title:
-    "Ajith Kumar | Front-End Developer with 9.5+ Years Experience in Angular, React & Next.js",
+    "Ajith Kumar | Web Developer with 9.5+ Years Experience in Angular, React & Next.js",
   description:
-    "Senior Front-End Developer with 9.5+ years of experience building enterprise-grade web apps using Angular, React, and Next.js. Proficient in CMS integration, performance optimization, CI/CD, and Agile collaboration.",
+    "Senior Web Developer with 9.5+ years of experience building enterprise-grade web apps using Angular, React, and Next.js. Proficient in CMS integration, performance optimization, CI/CD, and Agile collaboration.",
   icons: [
     {
       rel: "icon",

@@ -15,6 +15,7 @@ export const SkillSection = () => (
         "TypeScript",
         "Node.js",
         "GraphQL",
+        "MongoDB",
         "Java",
         "SQL (basic)",
       ]}
@@ -40,6 +41,7 @@ export const SkillSection = () => (
         "RxJS",
         "NgRx",
         "Express",
+        "Nest.js",
         "Java Spring MVC",
       ]}
     />

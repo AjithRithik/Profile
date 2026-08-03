@@ -41,7 +41,7 @@ export const ExperienceSection = () => (
 
     <div className="relative border-s border-gray-200 ml-4">
       <Experience
-        companyName="Specialist-Software Engineer @ LTIMindtree - (Full-Time)"
+        companyName="Specialist Software Engineer @ LTIMindtree - (Full-Time)"
         isPresent
         duration="Dec 2021 - Present"
         location="Coimbatore, Tamil Nadu, India"
@@ -57,17 +57,16 @@ export const ExperienceSection = () => (
             </div>
             <List>
               Collaborate within a 15-member Agile team building an enterprise
-              healthcare platform using Angular, TypeScript, and Java Spring
-              MVC REST APIs.
+              healthcare platform using Angular, TypeScript, and Java Spring MVC
+              REST APIs.
             </List>
             <List>
-              Refactored and optimized complex Angular components, including
-              the pricing package module, boosting performance and
-              maintainability.
+              Refactored and optimized complex Angular components, including the
+              pricing package module, boosting performance and maintainability.
             </List>
             <List>
-              Established unit testing from scratch, driving code coverage
-              from 0% to 80%+ across all modules.
+              Established unit testing from scratch, driving code coverage from
+              0% to 80%+ across all modules.
             </List>
             <List>
               Delivered error-free feature releases through rigorous Git-based
@@ -91,8 +90,8 @@ export const ExperienceSection = () => (
               cutting code duplication across brand storefronts.
             </List>
             <List>
-              Delivered Loyalty and Referral engagement features in
-              partnership with Product Owners and Frontend Architects.
+              Delivered Loyalty and Referral engagement features in partnership
+              with Product Owners and Frontend Architects.
             </List>
             <List>
               Maintained 80%+ code coverage with Jest/Vitest, validated via
@@ -132,8 +131,8 @@ export const ExperienceSection = () => (
             releases in a fast-paced Agile environment.
           </List>
           <List>
-            Owned roadmaps, estimations, and sprint planning across
-            simultaneous client engagements.
+            Owned roadmaps, estimations, and sprint planning across simultaneous
+            client engagements.
           </List>
           <List>
             Mentored junior developers on coding practices, code reviews, and
@@ -173,8 +172,8 @@ export const ExperienceSection = () => (
             end-to-end under tight schedules.
           </List>
           <List>
-            Expanded into full-stack development, building backend services
-            and REST APIs with Java (JSP, Struts, Spring MVC, Spring Boot).
+            Expanded into full-stack development, building backend services and
+            REST APIs with Java (JSP, Struts, Spring MVC, Spring Boot).
           </List>
           <List>
             Owned project estimations and planning, and mentored junior

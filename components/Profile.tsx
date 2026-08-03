@@ -25,7 +25,7 @@ export const Profile = () => (
         <span className="font-semibold">CI/CD workflows, cloud platforms</span>{" "}
         (Firebase), and modern development tools like{" "}
         <span className="font-semibold">
-          Webpack, Turbo, and monorepo architectures
+          Webpack, Turbo, and monorepo architectures.
         </span>
       </p>
       <p>

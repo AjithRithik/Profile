@@ -20,9 +20,9 @@ export const Header = () => (
       </div>
       <div className="flex flex-col gap-2 text-white">
         <h1 className="print:text-3xl lg:text-3xl md:text-xl mr-auto text-xl uppercase font-semibold">
-          Ajith kumar Susai A
+          Ajith Kumar Susai A
         </h1>
-        <div className="text-lg">Specialist Sofware Engineer</div>
+        <div className="text-lg">Specialist Software Engineer</div>
         <div className="text-sm">
           Angular | React js | Next js | Node js | TypeScript | Web Development
         </div>
@@ -41,14 +41,14 @@ export const Header = () => (
         className="flex items-center gap-2"
       >
         <FontAwesomeIcon icon={faEnvelope} />
-        <span>Official.ajith171995@gmail.com</span>
+        <span>official.ajith171995@gmail.com</span>
       </a>
       <a
-        href="https://www.linkedin.com/in/ajithkumaroffical"
+        href="https://www.linkedin.com/in/ajithkumarofficial"
         className="flex items-center gap-2"
       >
         <FontAwesomeIcon icon={faLinkedin} />
-        <span>linkedin.com/in/ajithkumaroffical</span>
+        <span>linkedin.com/in/ajithkumarofficial</span>
       </a>
       <a
         href="https://github.com/AjithRithik"

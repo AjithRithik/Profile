@@ -32,17 +32,20 @@ export const PersonalProjects = () => (
     <div className="relative border-s border-gray-200 ml-4">
       <Experience
         icon={faRocket}
+        companyName="Smart Budget Web App"
+        location="https://budget-wiz.vercel.app/"
+      >
+        <Project
+          title="Tech stack"
+          projects={["Next js, Firebase, Tailwind css"]}
+        />
+      </Experience>
+      <Experience
+        icon={faRocket}
         companyName="medzlegal"
         location="https://portal.medzlegal.co/"
       >
         <Project title="Tech stack" projects={["React js, Tailwind css"]} />
-      </Experience>
-      <Experience
-        icon={faRocket}
-        companyName="The purble bird"
-        location="https://thepurblebird.com/"
-      >
-        <Project title="Tech stack" projects={["Next js, Tailwind css"]} />
       </Experience>
     </div>
     {/* <!-- End Education 1 --> */}

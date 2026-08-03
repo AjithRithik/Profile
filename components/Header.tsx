@@ -25,7 +25,6 @@ export const Header = () => (
         <div className="text-lg">Specialist Sofware Engineer</div>
         <div className="text-sm">
           Angular | React js | Next js | Node js | TypeScript | Web Development
-          | MongoDB
         </div>
         <Link
           className="text-sm underline"

@@ -5,90 +5,106 @@ export const SkillSection = () => (
   <section className="col-span-1 mt-8 first:mt-0" id="skills">
     <Heading title="Skills" />
 
-    {/* Programming Languages */}
+    {/* Languages */}
     <Skills
-      title="Programming Languages"
+      title="Languages"
       skills={[
         "HTML",
         "CSS / CSS3 / Sass",
         "JavaScript (Advanced)",
         "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "MongoDB",
         "Java",
         "SQL (basic)",
       ]}
     />
 
-    {/* Frontend & Backend Frameworks */}
+    {/* Frontend Frameworks & Libraries */}
     <Skills
-      title="Frontend & Backend Frameworks"
+      title="Frontend Frameworks & Libraries"
       skills={[
         "Angular",
         "React",
         "Next.js",
         "jQuery",
-        "Axios",
+        "Redux",
+        "NgRx",
+        "RxJS",
+        "React Query",
         "Apollo",
-        "Theme UI",
+        "Axios",
         "Tailwind",
         "Bootstrap",
         "Material UI",
         "Styled Components",
-        "Redux",
-        "React Query",
-        "RxJS",
-        "NgRx",
-        "Express",
-        "Nest.js",
-        "Java Spring MVC",
+        "Theme UI",
       ]}
     />
 
-    {/* DevOps, Tools & Build Systems */}
+    {/* Backend & APIs */}
     <Skills
-      title="DevOps, Tools & Build Systems"
+      title="Backend & APIs"
+      skills={["Node.js", "Express", "Nest.js", "Java Spring MVC"]}
+    />
+
+    {/* Testing */}
+    <Skills
+      title="Testing"
+      skills={["Jest", "Vitest", "Cypress", "Testing Library", "Cucumber"]}
+    />
+
+    {/* DevOps, Build Tools & Cloud */}
+    <Skills
+      title="DevOps, Build Tools & Cloud"
       skills={[
         "Git / Bash / GitHub",
         "GitLab",
-        "Azure",
         "CI / CD",
-        "SonarQube",
         "Jenkins",
-        "ESLint",
-        "VSCode",
-        "NPM",
-        "Yarn",
         "Webpack",
         "Turbo",
         "Monorepo",
-      ]}
-    />
-
-    {/* Cloud, Analytics, CMS & Communication */}
-    <Skills
-      title="Cloud, Analytics, CMS & Communication"
-      skills={[
+        "NPM",
+        "Yarn",
+        "ESLint",
+        "VSCode",
+        "SonarQube",
+        "Azure",
         "AWS CloudFront",
         "Firebase",
-        "Google Analytics",
-        "GrowthBook",
-        "Optimizely A/B Testing",
-        "Optimove",
-        "Contentful CMS",
-        "Netlify CMS",
         "Netlify",
         "Vercel",
-        "Zendesk",
-        "Chat Tools",
       ]}
     />
 
-    {/* Testing & Related Skills */}
+    {/* AI Tools */}
     <Skills
-      title="Testing libraries"
-      skills={["Jest", "Cypress", "Testing Library", "Vitest", "Cucumber"]}
+      title="AI Tools"
+      skills={[
+        "GitHub Copilot",
+        "ChatGPT",
+        "Claude Code",
+        "Cursor",
+        "Antigravity",
+        "OpenCode",
+        "OpenEx",
+        "Stitch AI",
+      ]}
+    />
+
+    {/* CMS & Analytics */}
+    <Skills
+      title="CMS & Analytics"
+      skills={[
+        "Optimizely A/B Testing",
+        "Google Analytics",
+        "Contentful CMS",
+        "LaunchDarkly",
+        "Netlify CMS",
+        "GrowthBook",
+        "Chat Tools",
+        "Optimove",
+        "Zendesk",
+      ]}
     />
   </section>
 );

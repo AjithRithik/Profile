@@ -56,24 +56,22 @@ export const ExperienceSection = () => (
               />
             </div>
             <List>
-              Working as a Full Stack Developer in the healthcare domain, using
-              Angular for frontend and Java Spring MVC for backend.
+              Collaborate within a 15-member Agile team building an enterprise
+              healthcare platform using Angular, TypeScript, and Java Spring
+              MVC REST APIs.
             </List>
             <List>
-              Refactored complex Angular components and worked on multiple
-              features like pricing package modal.
+              Refactored and optimized complex Angular components, including
+              the pricing package module, boosting performance and
+              maintainability.
             </List>
             <List>
-              Developed comprehensive unit test cases for all modules, achieving
-              above 80% code coverage.
+              Established unit testing from scratch, driving code coverage
+              from 0% to 80%+ across all modules.
             </List>
             <List>
-              Conducted extensive code reviews to ensure maintainability and
-              adherence to best practices.
-            </List>
-            <List>
-              Contributed to a large-scale project impacting multiple healthcare
-              workflows.
+              Delivered error-free feature releases through rigorous Git-based
+              code reviews and Angular/TypeScript best practices.
             </List>
           </div>
           {/* Next.js Project */}
@@ -85,27 +83,21 @@ export const ExperienceSection = () => (
               />
             </div>
             <List>
-              Worked on a global multi-brand e-commerce web application,
-              translating the design system into a seamless user interface using
-              Next.js.
+              Built a global multi-brand e-commerce platform in Next.js and
+              TypeScript, translating designs into production-ready UI.
             </List>
             <List>
-              Built reusable and themeable React components in Storybook to
-              reduce code duplication.
+              Engineered reusable, themeable React components in Storybook,
+              cutting code duplication across brand storefronts.
             </List>
             <List>
-              Actively contributed to user engagement programs such as Loyalty
-              and Referral.
+              Delivered Loyalty and Referral engagement features in
+              partnership with Product Owners and Frontend Architects.
             </List>
             <List>
-              Collaborated with Product Owners and Frontend Architects,
-              providing suggestions for new feature development.
+              Maintained 80%+ code coverage with Jest/Vitest, validated via
+              SonarQube, and enforced best practices through Git code reviews.
             </List>
-            <List>
-              Performed unit tests using Jest/Vitest to maintain 80% code
-              coverage in SonarQube.
-            </List>
-            <List>Reviewed peer code and enforced best coding practices.</List>
           </div>
         </div>
       </Experience>
@@ -128,24 +120,24 @@ export const ExperienceSection = () => (
         </div>
         <div className="flex flex-col gap-1 text-[13px] font-medium">
           <List>
-            Worked on multiple e-commerce projects with multiple clients
-            simultaneously.
+            Led a 10-member team delivering 6 concurrent e-commerce client
+            projects under tight delivery timelines.
           </List>
           <List>
-            Built responsive web and mobile applications using Next.js and React
-            Native.
+            Built responsive web and mobile apps using Next.js, React Native,
+            and TypeScript with REST API integrations.
           </List>
           <List>
-            Led the team, developed, deployed, and delivered applications in the
-            most effective way.
+            Directed end-to-end delivery across projects, ensuring on-time
+            releases in a fast-paced Agile environment.
           </List>
           <List>
-            Actively involved in project management activities such as project
-            roadmaps, project estimations, and project planning.
+            Owned roadmaps, estimations, and sprint planning across
+            simultaneous client engagements.
           </List>
           <List>
-            Mentored junior developers by providing excellent tips and feedback
-            to encourage them to follow best coding practices.
+            Mentored junior developers on coding practices, code reviews, and
+            Git workflows.
           </List>
         </div>
       </Experience>
@@ -168,29 +160,25 @@ export const ExperienceSection = () => (
         </div>
         <div className="flex flex-col gap-1 text-[13px] font-medium">
           <List>
-            Worked on large-scale sports ERP projects for major sports
-            organizations in Australia (NRL, AFL & MLB).
+            Collaborated across cross-functional teams of 15-20 engineers
+            building sports ERP systems for major Australian sports
+            organizations (NRL, AFL & MLB).
           </List>
           <List>
-            Built reusable components for complex workflows using AngularJS and
-            Angular.
+            Built reusable, scalable components using AngularJS and Angular,
+            supporting feature releases every 3-6 months.
           </List>
           <List>
-            Coordinated with the team, developed, deployed, supported, and
-            delivered applications effectively even under tight schedules.
+            Developed, deployed, and supported production applications
+            end-to-end under tight schedules.
           </List>
           <List>
-            Primarily involved in frontend development, later took on backend
-            challenges as well with Java frameworks (JSP, Struts, Spring MVC,
-            Spring Boot).
+            Expanded into full-stack development, building backend services
+            and REST APIs with Java (JSP, Struts, Spring MVC, Spring Boot).
           </List>
           <List>
-            Actively involved in project management activities such as project
-            estimations and project planning.
-          </List>
-          <List>
-            Mentored junior developers and guided them to consistently follow
-            best coding practices.
+            Owned project estimations and planning, and mentored junior
+            developers on best coding practices.
           </List>
         </div>
       </Experience>

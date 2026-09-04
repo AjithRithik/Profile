@@ -22,7 +22,7 @@ export const SkillSection = () => (
     <Skills
       title="Frontend Frameworks & Libraries"
       skills={[
-        "Angular",
+        "Angular 21",
         "React",
         "Next.js",
         "jQuery",
@@ -43,13 +43,13 @@ export const SkillSection = () => (
     {/* Backend & APIs */}
     <Skills
       title="Backend & APIs"
-      skills={["Node.js", "Express", "Nest.js", "Java Spring MVC"]}
+      skills={["Node.js", "Express", "Java Spring MVC"]}
     />
 
     {/* Testing */}
     <Skills
       title="Testing"
-      skills={["Jest", "Vitest", "Cypress", "Testing Library", "Cucumber"]}
+      skills={["Jest", "Vitest", "Cypress", "Testing Library"]}
     />
 
     {/* DevOps, Build Tools & Cloud */}

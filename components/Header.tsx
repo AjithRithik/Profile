@@ -8,7 +8,7 @@ import ProfileImage from "@/public/images/profile-image.png";
 export const Header = () => (
   <div className="flex-col flex md:flex-row bg-purple-700 rounded-b-lg border-b-2 border-white flex-1 p-4 gap-8">
     <div className="flex">
-      <div className="mr-5">
+      {/* <div className="mr-5">
         <div className="w-32 h-32 rounded-xl shadow-2xl shadow-white relative overflow-hidden">
           <Image
             alt="profile image"
@@ -17,7 +17,7 @@ export const Header = () => (
             className="object-cover"
           />
         </div>
-      </div>
+      </div> */}
       <div className="flex flex-col gap-2 text-white">
         <h1 className="print:text-3xl lg:text-3xl md:text-xl mr-auto text-xl uppercase font-semibold">
           Ajith Kumar Susai A
